@@ -1,0 +1,41 @@
+.users {
+        display: flex;
+        background-color: #f2f5f9;
+}
+
+.users-div {
+    width: 60%;
+    margin-top: 10%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 10%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+@media only screen and (max-width:500px){
+    .users {
+        height: 100vh;
+        overflow-y: auto;
+    }
+    .users-div {
+        margin-top: 25%;
+        width: 100%;
+    }
+    table {
+        margin: 5% 5%;
+        width: 90%;
+    }
+}
