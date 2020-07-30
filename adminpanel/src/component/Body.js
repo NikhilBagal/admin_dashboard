@@ -8,7 +8,7 @@ import "./Body.css"
 
 const Body = () => {
     return (
-        <Router basename="/home">
+        <Router basename="/admin_dashboard">
             <div className="body">
                 <Switch>
                     <Route path="/" exact component={Main}/>
